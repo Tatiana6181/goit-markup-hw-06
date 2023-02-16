@@ -647,5 +647,26 @@ a .portfolio-img:hover {
   background-color: var(--accent);
   cursor: pointer;
 }
-.modal-icon {
+.modal-text {
+padding-top: 72px;
+margin-left: 24px;
+margin-bottom: 16px;
+}
+.order-form {
+margin: 0 auto;
+}
+.modal-list{
+list-style: none;
+}
+label {
+  display: inline-block;
+}
+.modal-item {
+
+}
+.modal-checkbox {
+
+}
+.modal-button {
+
 }

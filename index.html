@@ -580,6 +580,37 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+
+        <form class="order-form" novalidate name="order_form" autocomplete="on">
+          <ul class="modal-list">
+         <li class="modal-item"><label for="user_name"> Name 
+          <input type="text" name="name" id="user_name" autofocus>
+        </label>
+         </li>
+          <li class="modal-item"><label for="user_phone">Phone 
+            <input type="tel" name="phone" id="user_phone">
+          </label>
+          </li>
+          <li class="modal-item"><label for="user_email">Email
+            <input type="email" name="email" id="user_email">
+          </label>
+          </li>
+          <li class="modal-item"><label for="user_comment">Comment
+            <textarea name="comment" id="user_comment" rows="5">
+              Text input
+            </textarea>
+          </label>
+          </li>
+          <li class="modal-checkbox"><label for="privaci_polisi">
+            <input type="checkbox" name="privaci_polisi">
+          </label>
+          </li>
+              
+          <li class="modal-button"><button type="submit">Send</button></li>
+        </form>
+        </ul>
       </div>
     </div>
 
