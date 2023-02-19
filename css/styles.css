@@ -494,6 +494,18 @@ img {
   font-weight: var(--h-trd-wght);
   margin-bottom: 16px;
 }
+.footer-modal {
+
+}
+.footer-modal-btn {
+
+}
+.footer-modal-button {
+
+}
+.footer-modal-icon {
+
+}
 /* Button */
 .button-list {
   display: flex;
@@ -647,26 +659,39 @@ a .portfolio-img:hover {
   background-color: var(--accent);
   cursor: pointer;
 }
-.modal-text {
-padding-top: 72px;
-margin-left: 24px;
-margin-bottom: 16px;
-}
-.order-form {
-margin: 0 auto;
-}
-.modal-list{
-list-style: none;
-}
-label {
-  display: inline-block;
-}
-.modal-item {
+.modal-title {
 
 }
-.modal-checkbox {
+.modal-form {
 
 }
-.modal-button {
+.modal-form-list {
 
+}
+.modal-form-group {
+
+}
+.modal-form-agreement {
+
+}
+.modal-form-checkbox {
+
+}
+.modal-form-link {
+
+}
+.modal-form-btn {
+
+}
+.modal-form-desc {
+
+}
+.modal-checkbox-icon {
+ 
+}
+.checkbox-frame {
+
+}
+.checkbox-check {
+  
 }
