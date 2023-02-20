@@ -511,6 +511,7 @@ img {
 }
 .footer-modal-desc {
   display: flex;
+  height: 40px;
 }
 .footer-modal-item {
   width: 264px;
@@ -526,7 +527,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
   padding: 8px 24px;
   gap: 16px;
   
@@ -688,8 +688,13 @@ a .portfolio-img:hover {
   border-radius: 50%;
   background-color: var(--accent);
   cursor: pointer;
+  transition: background-color 300ms ease-in-out;
 }
+.modal-btn:hover {
+background-color: var(--pressed-state);
+fill: var(--bgd-w);
 
+}
 .modal-title {
   display: block;
   
