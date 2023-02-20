@@ -494,25 +494,24 @@ img {
   font-weight: var(--h-trd-wght);
   margin-bottom: 16px;
 }
-.footer-modal {
-  display: flex;
-  margin-left: 80px;
-}
+
 .footer-subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
   width: 453px;
   height: 80px;
 }
-.footer-modal-link {
-}
 
 .footer-modal-title {
+  
   font-weight: 500;
-  font-size: 16px;
-  height: 24px;
   color: var(--bgd-w);
-  margin-bottom: 11px;
+  margin-bottom: 16px;
 }
-
+.footer-modal-desc {
+  display: flex;
+}
 .footer-modal-item {
   width: 264px;
   height: 40px;
@@ -520,30 +519,22 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  padding-left: 16px;
-  margin-right: 24px;
+ margin-right: 24px;
 }
-.footer-modal-btn {
-  position: relative;
-}
+
 .footer-modal-button {
   display: flex;
   align-items: center;
-  width: 165px;
+  justify-content: center;
   height: 40px;
-  padding-left: 24px;
+  padding: 8px 24px;
+  gap: 16px;
+  
 }
 .footer-modal-icon {
-  position: absolute;
-  top: 20%;
-  left: 70%;
-  transform: translate(-20% -70%);
-  width: 24px;
-  height: 24px;
+ 
 }
-.footer-modal-desc {
-  display: flex;
-}
+
 /* Button */
 .button-list {
   display: flex;
@@ -672,6 +663,7 @@ a .portfolio-img:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 576px;
   border-radius: 4px;
@@ -697,17 +689,16 @@ a .portfolio-img:hover {
   background-color: var(--accent);
   cursor: pointer;
 }
+
 .modal-title {
   display: block;
-  padding-top: 72px;
+  
   text-align: center;
   margin-bottom: 16px;
 }
 .modal-form {
   display: block;
-  padding-bottom: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
+ 
 }
 .modal-form-list {
   display: block;
@@ -782,8 +773,7 @@ a .portfolio-img:hover {
 .modal-form-btn {
   display: block;
   width: 169px;
-  margin-right: auto;
-  margin-left: auto;
+  
   margin-top: 24px;
 }
 .modal-form-btn:disabled {
@@ -809,7 +799,8 @@ a .portfolio-img:hover {
   transition: cubic-bezier(ease-in-out);
 }
 .modal-form-checkbox:checked + .modal-checkbox-icon > .checkbox-frame {
-  stroke: var(--primary-brand);
+  stroke:none;
+  fill: var(--pressed-state);
 }
 .checkbox-check {
   fill: var(--bgd-w);
@@ -821,5 +812,5 @@ a .portfolio-img:hover {
 }
 .modal-form-checkbox:checked + .modal-checkbox-icon > .checkbox-check {
   opacity: 1;
-  transform: scale(0.8);
+  transform: scale(0.7);
 }
