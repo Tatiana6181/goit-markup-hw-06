@@ -504,7 +504,6 @@ img {
 }
 
 .footer-modal-title {
-  
   font-weight: 500;
   color: var(--bgd-w);
   margin-bottom: 16px;
@@ -520,7 +519,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
- margin-right: 24px;
+  margin-right: 24px;
 }
 
 .footer-modal-button {
@@ -529,10 +528,8 @@ img {
   justify-content: center;
   padding: 8px 24px;
   gap: 16px;
-  
 }
 .footer-modal-icon {
- 
 }
 
 /* Button */
@@ -688,22 +685,20 @@ a .portfolio-img:hover {
   border-radius: 50%;
   background-color: var(--accent);
   cursor: pointer;
-  transition: background-color 300ms ease-in-out;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover {
-background-color: var(--pressed-state);
-fill: var(--bgd-w);
-
+  background-color: var(--pressed-state);
+  fill: var(--bgd-w);
 }
 .modal-title {
   display: block;
-  
+
   text-align: center;
   margin-bottom: 16px;
 }
 .modal-form {
   display: block;
- 
 }
 .modal-form-list {
   display: block;
@@ -778,7 +773,7 @@ fill: var(--bgd-w);
 .modal-form-btn {
   display: block;
   width: 169px;
-  
+
   margin-top: 24px;
 }
 .modal-form-btn:disabled {
@@ -804,7 +799,7 @@ fill: var(--bgd-w);
   transition: cubic-bezier(ease-in-out);
 }
 .modal-form-checkbox:checked + .modal-checkbox-icon > .checkbox-frame {
-  stroke:none;
+  stroke: none;
   fill: var(--pressed-state);
 }
 .checkbox-check {
