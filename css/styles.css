@@ -503,13 +503,15 @@ img {
   height: 80px;
 }
 .footer-modal-link {
+ 
 }
 
 .footer-modal-title {
-  font-weight: var(--h-trd-wght);
+  font-weight: 500;
+  font-size: 16px;
   height: 24px;
   color: var(--bgd-w);
-  margin-bottom: 16px;
+  margin-bottom: 11px;
 }
 
 .footer-modal-item {
