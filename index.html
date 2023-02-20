@@ -570,15 +570,22 @@
           </ul>
         </div>
         <div class="footer-modal">
-          <strong class="footer-modal-title">Subscribe</strong>
+          
+          <form class="footer-subscribe-form">
           <label class="footer-modal-link" for="user_email"></label>
+          <p class="footer-modal-title">Subscribe</p>
+          <div class="footer-modal-desc">
           <input class="footer-modal-item" type="email" name="user_email" id="user_email" placeholder="E-mail" required>
           <div class="footer-modal-btn">
-            <button class="footer-modal-button" type="submit">Subscribe</button>
+            <button class="footer-modal-button hero-order" type="submit">Subscribe</button>
           <svg class="footer-modal-icon" widht="24px" height="24px">
           <use href="./images/icons.svg#icon-telegram"> </use>
           </svg>
         </div>
+      </div>
+      </form>
+        
+        
         </div>
       </div>
     </footer>
@@ -596,21 +603,25 @@
         <form class="modal-form" name="modal_form">
           
           <label class="modal-form-list" for="user_name" >Name</label>
-            <div class="modal-form-group">
-              <input class="modal-form-item" type="text" name="user_name"id="user_name" autofocus required>
+            <div class="modal-form-group" >
+              <input class="modal-form-item" 
+              type="text" name="user_name"
+              id="user_name"
+              required
+              autofocus
+              >
               <svg class="modal-form-icon" widht="18px" height="18px">
               <use href="./images/icons.svg#icon-name"> </use>
               </svg>
-            
           </div>
-          
+
           <label class="modal-form-list" for="user_phone">Phone</label>
-            <div class="modal-form-group">
+           <div class="modal-form-group">
             <input class="modal-form-item" type="tel" name="user_phone" id="user_phone" required>
             <svg class="modal-form-icon" widht="13px" height="13px">
             <use href="./images/icons.svg#icon-phone"> </use>
             </svg>
-          </div>
+           </div>
           
           <label class="modal-form-list" for="user_email">Email</label>
             <div class="modal-form-group">
@@ -625,22 +636,22 @@
             placeholder="Text input"></textarea>
           
           <label class="modal-form-agreement">
-            <input class="modal-form-checkbox visually-hidden" 
+            <input class="modal-form-checkbox " 
             type="checkbox" name="user_agreement"
-            id="user_agreement" required >
-            <svg class="modal-checkbox-icon" widht="16px" height="16px">
-            <use class="checkbox-frame" href="./images/icons.svg#icon-checkbox-frame"> </use>
-            <use class="checkbox-check" href="./images/icons.svg#icon-checkbox-check"> </use>
-            </svg>
-            <svg class="" widht="9.51px" height="6.99px">
-            
+            id="user_agreement" required 
+            data-modal-checkbox>
+            <svg class="modal-checkbox-icon" > 
+             <use class="checkbox-frame" href="./images/icons.svg#icon-checkbox-frame"> </use> 
+             <use class="checkbox-check" href="./images/icons.svg#icon-checkbox-check"> </use> 
             </svg>
             <span class="modal-form-desc">
               I accept the terms and conditions of the 
               <a class="modal-form-link" href="#" target="_blank">Privacy Policy</a>
             </span>
           </label>
-          <button class="modal-form-btn" type="submit">Submit</button>
+          <button class="modal-form-btn hero-order" type="submit" disabled
+          data-modal-submit
+          >Send</button>
           
 
         </form>
